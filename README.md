@@ -1,5 +1,7 @@
 # Devise::PhoneConfirmable
 
+[![Code Climate](https://codeclimate.com/github/asiniy/devise-phone_confirmable/badges/gpa.svg)](https://codeclimate.com/github/asiniy/devise-phone_confirmable)
+
 TODO: Write a gem description
 
 ## Installation
@@ -20,7 +22,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/devise-phone_confirmable/fork )
+1. Fork it ( https://github.com/asiniy/devise-phone_confirmable/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Ensure tests are passed
 4. Commit your changes (`git commit -am 'Add some feature'`)
