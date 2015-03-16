@@ -1,0 +1,13 @@
+<h2><%= t 'devise.phone_confirmations.show.header' %></h2>
+
+<%= form_for resource, as: resource_name, url: phone_confirmation_path, html: { method: :post } do |f| %>
+  <%= devise_error_messages! %>
+
+  <p><%= f.label :phone %><br />
+  <%= f.phone_field :phone, params[:phone] %></p>
+
+  <p><%= f.label :token %><br />
+  <%= f.text_field :token, params[:token], required: true, autofocus: true %></p>
+
+  <p><%= f.submit t('devise.phone_confirmations.show.submit_button') %></p>
+<% end %>

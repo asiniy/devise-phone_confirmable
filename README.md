@@ -2,7 +2,9 @@
 
 [![Code Climate](https://codeclimate.com/github/asiniy/devise-phone_confirmable/badges/gpa.svg)](https://codeclimate.com/github/asiniy/devise-phone_confirmable)
 
-TODO: Write a gem description
+[[Developer guide](CONTRIBUTING.md)]
+
+Sometimes you need user confirm their phone. PhoneConfirmable simplifies process of user's phone confirmation.
 
 ## Installation
 
