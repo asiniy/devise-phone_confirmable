@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'fabrication'
   spec.add_development_dependency 'sqlite3'
   spec.add_development_dependency 'smsru'
+  spec.add_development_dependency 'quiet_assets'
 end
